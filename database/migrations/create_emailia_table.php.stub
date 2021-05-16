@@ -8,11 +8,10 @@ return new class extends Migration
 {
     public function up()
     {
-        Schema::create('skeleton_table', function (Blueprint $table) {
+        Schema::create('emailia_email_logs', function (Blueprint $table) {
             $table->id();
-
-            // add fields
-
+            $table->json('details');
+            $table->boolean('read')->default(false);
             $table->timestamps();
         });
     }

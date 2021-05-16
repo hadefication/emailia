@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Hadefication\Emailia\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class EmailiaCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'emailia';
 
     public $description = 'My command';
 
